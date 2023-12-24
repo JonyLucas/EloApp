@@ -1,8 +1,0 @@
-{
-    "routes": [
-        {
-            "src": "^/$",
-            "dest": "/Builds/Web/index.html"
-        }
-    ]
-}

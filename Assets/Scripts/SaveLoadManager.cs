@@ -38,8 +38,6 @@ public class SaveLoadManager : MonoBehaviour
 
     private void Start()
     {
-        WebGLInput.mobileKeyboardSupport = true;
-        // WebGLInput.captureAllKeyboardInput = true;
         filePath = Path.Combine(Application.persistentDataPath, "eloData.json");
         var loadedData = LoadData();
         if (loadedData == null || loadedData.Count == 0)
