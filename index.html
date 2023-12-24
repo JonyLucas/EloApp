@@ -43,9 +43,11 @@
                 id="game_drop" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true"
                 allow="autoplay; fullscreen *; geolocation; microphone; camera; midi; monetization; xr-spatial-tracking; gamepad; gyroscope; accelerometer; xr; cross-origin-isolated"></iframe>
         </div>
-        <div class="itchio_footer" style="height: 100px;">
-            <button title="Fullscreen" class="fullscreen_btn"><svg height="28" role="img"
-                    aria-hidden viewBox="0 0 500 500" width="28" version="1.1" class="svgicon icon_enlarge">
+        <div class="itchio_footer"
+            style="position: absolute;  height: 100vh; width: 100vw; background-color: rgba(50, 50, 50, 0.5);">
+            <button title="Fullscreen" class="fullscreen_btn" style="margin: 0 auto;">
+                <svg height="200px" role="img" aria-hidden viewBox="0 0 500 500" width="200px" version="1.1"
+                    class="svgicon icon_enlarge">
                     <path
                         d="m 0,0 v 203.12521 l 78.125081,-78.12508 93.750099,93.7501 46.87505,-46.87505 -93.7501,-93.7501 L 203.12521,0 Z m 296.87531,0 78.12508,78.12508 -93.7501,93.7501 46.87505,46.87505 93.7501,-93.7501 78.12508,78.12508 V 0 Z M 171.87518,281.25029 78.125081,375.00039 0,296.87531 v 203.12521 h 203.12521 l -78.12508,-78.12508 93.7501,-93.7501 z m 156.25016,0 -46.87505,46.87505 93.7501,93.7501 -78.12508,78.12508 H 500.00052 V 296.87531 l -78.12508,78.12508 z" />
                 </svg></button>
@@ -53,15 +55,6 @@
     </div>
     <script type="text/javascript">new I.UploadEmbed('#upload_embed_822480', { "upload": { "upload_id": 9375434, "url": "https:\/\/html-classic.itch.zone\/html\/9375434\/Web\/index.html", "type": "html" } });
         I.setup_page();</script>
-    <script>
-        setTimeout(function () {
-            document.addEventListener('click', function () {
-                document.querySelector('#game_drop').requestFullscreen();
-            });
-        }, 5000);
-
-
-    </script>
 </body>
 </head>
 
